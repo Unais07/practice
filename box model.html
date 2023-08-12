@@ -5,13 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box model</title>
     <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding:0;
+            
+        }
+        body{
+            background-color:gray;
+        }
         .container{
-            background-color: blueviolet;
+            background-color: rgb(200, 192, 208);
             border:3px solid black;
-            padding: 30px;
+            border-radius:10px;
+            /* margin-top:3px;
+            margin-bottom:3px;
+            margin-left:3px;
+            margin-right:3px; */
+
+            /* padding-bottom: 30px;
             padding-top:30px;
             padding-left:30;
-            margin: 32px;
+            padding-right:30; */
+            /* we can set margin/padding for top bottem left and right like this */
+
+            /* padding: 10px 50px 20px 50px;  padding=top/right and bottom/left; */
+            /* margin: 10px 50px 20px 50px;  margin=top/right and bottom/left; */
+
+            padding: 10px 20px;  /*padding:y(top/bottem)x(left/right)*/
+            margin: 10px 300px;
+            width: 500px;
             
         }
 
