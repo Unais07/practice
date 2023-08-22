@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selector & more designing</title>
+    <style>
+        .container{
+            border: 2px solid rgb(10, 10, 12);
+            background-color: bisque;
+            padding: 18px;
+            margin: 34px auto;
+            width: 500px;
+            
+        }
+        a{
+            text-decoration: none;
+            color:black
+        }
+        a:hover{
+            color: blue;
+            background-color:white;
+        }
+        a:visited{
+
+        }
+        a:active{
+            background-color: bisque;
+        }
+        .btn{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: blueviolet;
+            padding: 4px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color: rgb(22, 94, 228);
+            background-color: azure;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+    <h3>this is my paragraph</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, doloremque! Velit veritatis eos voluptatum repellat tempore sed voluptate debitis dolorem. Ipsam qui dolore, maxime temporibus, perferendis dolor quam corporis quae veniam accusamus vero sunt!</p>
+    <a href="https://google.com"class="btn">Read more</a>
+    <button class="btn">contact us</button>
+</div>
+</body>
+</html>
