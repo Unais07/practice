@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after pseudo selecter</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: rgb(247, 236, 236);
+            
+        }
+        header::before{
+            background: url(/image/fm.avif) no-repeat center center/cover;
+            content:"" ;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+
+        }
+
+        .navigation {
+            
+            font-size: 20px;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 34px 23px;
+        }
+
+        section {
+           
+            margin: 4px 25px;
+            padding: 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        /* section::before{
+            content: "this is our content"
+        } */
+    </style>
+</head>
+
+<body>
+
+
+</body>
+<header>
+    <nav class="navbar">
+        <ul class="navigation">
+            <li class="item">Home</li>
+            <li class="item">About</li>
+            <li class="item">service</li>
+            <li class="item">Contact Us</li>
+        </ul>
+    </nav>
+</header>
+    <section>
+        <h1>Welcome to coding world</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique sint at, assumenda consequatur, vero ex
+            numquam animi eaque eligendi aliquid fuga eum impedit enim odit exercitationem quis iure veritatis earum
+            tenetur dolore labore. Corrupti?</p>
+    </section>
+    <!-- <hr> -->
+
+
+</html>
