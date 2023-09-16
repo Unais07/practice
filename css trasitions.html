@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Trasitions</title>
+    <style>
+        #box{
+            margin-top: 250px;
+            margin-left: 800px;
+            width: 250px;
+            height: 250px;
+            background-color: rgb(212, 212, 233);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            /* transition-property: bachground-color;
+            transition-duration: 1s;
+            /* transition-timing-function: ease-in-out; */
+            /* transition-delay: 2s; */ 
+            /* transition short hand property in one line  */
+            transition: bachground-color, 1s, ease-in-out, 3s ;
+            
+        } 
+        body{
+            background-color: black;
+        }
+        #box:hover{
+            background-color: rgb(16, 238, 238);
+            height:400px;
+            width: 400px;
+            border-radius: 500px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h3>this is css trasition tutorial</h3>
+    <div class="container">
+        <div id="box">
+            this is my box
+        </div>
+    </div>
+    
+</body>
+</html>
